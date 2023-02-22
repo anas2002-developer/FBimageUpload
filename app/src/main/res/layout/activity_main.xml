@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="45dp"
+    android:gravity="center"
+    tools:context=".CameraActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camera Image Select" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gallery Image Select" />
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Camera"
+        android:backgroundTint="#9c88ff"
+        android:elevation="12dp"/>
+
+    <Button
+        android:id="@+id/btnGallery"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Gallery"
+        android:backgroundTint="#9c88ff"
+        android:elevation="12dp" />
+
+    <ImageView
+        android:id="@+id/imgCamera"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="12dp"
+        android:scaleType="fitXY"
+        android:background="@color/purple_200" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Send to Firebase"
+        android:backgroundTint="#9c88ff"
+        android:elevation="12dp" />
+
+</LinearLayout>
